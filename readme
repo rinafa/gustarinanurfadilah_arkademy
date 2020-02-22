@@ -1,0 +1,15 @@
+Saya menggunakan aplikasi Sublime Text untuk menyelesaikan soal
+
+
+# Kegunaan JSON pada REST API (1)
+
+json merupakan salah satu output format dari REST API. Cara kerja RESTful API adalah REST client akan mengakses data/resource ke REST server dimana masing-masing resource atau data tersebut dibedakan oleh sebuah global ID atau URIs (Universal Resource Identifiers).
+Jadi data yang diberikan oleh REST server itu bisa berupa format text, JSON atau XML. Yang paling populer dipakai saat ini adalah format JSON.
+
+#REGEX (2)
+Format username: merupakan kombinasi dari huruf kecil dengan panjang 5-8 karakter. Username tidak boleh terdapat angka/huruf besar/karakter special kecuali garis bawah "_", dan garis bawah "_" tersebut tidak boleh berada di awal. Untuk menyelesaikan soal ini saya menggunakan pattern : ^[a-z-_]{5,8}
+
+Format password: merupakan kombinasi tepat 9 karakter (tidak kurang/lebih) yang terdiri dari huruf kecil, huruf besar, angka dan karakter spesial yakni tanda seru "!" saja.
+pattern : ^(?=.*[a-z])(?=.*[A-Z]) (?=.*[0-9])(?=[!]).{9}$
+
+untuk menguji kebenarannya saya langsung mencobanya di http://html5pattern.com/Passwords, dan mencari referensi pada https://regexr.com/ & http://regexlib.com/ agar bisa diketahui benar/salahnya. 

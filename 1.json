@@ -1,0 +1,10 @@
+{ "name":"Gustarina Nurfadilah",
+  "age": 23,
+  "address":"Jl. Kapten Sangun",
+  "hobbies":["membaca", "menulis", "makan", "jalan-jalan"],
+  "is_married":false,
+  "list_school" : 
+  	{"name" : "Universitas Telkom", "year_in" : 2015, "year_out" : 2019, "major" : "S1 Sistem Informasi"},
+  "skills":[ "java", "Panda" ] 
+}
+
